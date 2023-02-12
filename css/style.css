@@ -1,0 +1,130 @@
+body {
+    height: 95%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/beach-boat.jpg");
+}
+
+.first {
+    text-align: center;
+}
+
+.first h1 {
+    color: white;
+    font-family: Helvetica;
+    font-size: 70px;
+}
+
+.center1 {
+    height: 400px;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.second h2 {
+    color: #fde74c;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.second {
+    position: relative;
+    background-image: linear-gradient(to right, #1A2980, #26D0CE);
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.second p {
+    text-align: center;
+    color: #f7f7ff;
+    font-size: 20px;
+}
+
+.btn {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: #f3ffbd;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.btn2 {
+    width: 150px;
+    height: 50px;
+    background-color: #f3ffbd;
+    font-family: Helvetica;
+    font-size: 15px;
+    margin: 10px;
+}
+
+#quizPage {
+    display: none;
+    border: 1px solid;
+}
+
+#quizPageQuestion {
+    text-align: center;
+}
+
+.page {
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+#menuPage {
+    width: 100%;
+    height: 70%;
+}
+
+#answersAlert {
+    background-color: white;
+    padding: 150px;
+}
+
+#answersPage {
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+}
+
+#finishingPage {
+    display: none;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+
+@media only screen and (max-width: 805px) {
+    .center1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .first h1 {
+        font-size: 40px;
+    }
+    .second {
+        width: 250px;
+    }
+    #quizPageQuestion {
+        font-size: 15px;
+    }
+    #finishingText {
+        font-size: 20px;
+    }
+}
